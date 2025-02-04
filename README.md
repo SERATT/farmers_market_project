@@ -7,9 +7,9 @@ mobile is for mobile application implemented in flutter (designed for buyers and
 web is for web application (designed as an admin dashboard for crud ops with users)
 
 ## Stack
-Backend: Sprint Boot\n
-Mobile: Flutter\n
-Web: React\n
+- Backend: Sprint Boot
+- Mobile: Flutter
+- Web: React
 
 ## Project Deployment
 Deployed on cloud using Docker
