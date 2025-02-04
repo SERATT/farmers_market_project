@@ -1,0 +1,15 @@
+meta {
+  name: User
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://127.0.0.1:8989/farmer-market-api/admin-dashboard/user
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZWFtaGFkbWluIiwiaWF0IjoxNzMyMTkyMjIxLCJleHAiOjE3MzIxOTQwMjEsInR5cCI6ImFjY2VzcyJ9.P3bPU2DIXrF1xo6GwHaxGyBa327GOzBJJoKJEx1Rq5Ezd_JHJxwXkoMsxczw9_wLjUHnira54fL_G4omI9_oxQ
+}
